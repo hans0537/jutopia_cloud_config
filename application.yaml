@@ -2,5 +2,6 @@ token:
   expiration_time: 86400000
   secret: '{cipher}AQAOoaplFYP2nxG5IFRk1+UrDHcgR0j1/4bHU0fgnjHrMvHPk8mDxHQKuGkMQAutEmAYKVVnPxTdd8HrgFLcwkr1rVEYLmFJrBJM7ep/TrYxf+y3Iat7MRFNY6AQ7TCtNLgd79MU91R/mnlwt4hrKVF0WN1WDzgRWjHPlFBi0wwCh1N+ANYQoBjjpuaNZg0WGBkKrfVTGa89I14t36r33aJ/PFaoOWBcVB27p57InSiZYT1fo1ON0vxptCiCkCxH2s7jTiMXpsaUjblor0+3YhTmc1BRd5tyq+dMlxRBKRPQn6oHBDYGNHTtmBrRloBKYq/wNhi7K+lO54cLPSTPU4MzKeMHOFi8yImNxFIQZ/uET27lbPharauCBgVXJtg5cnTVzblSsVh2xDgPg/iIRXGL'
 
+# jutopia-network의 apigateway ip address로 변경
 gateway:
   ip: 172.18.0.3
