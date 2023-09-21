@@ -7,14 +7,12 @@ spring:
   h2:
     console:
       enabled: true
-
+    
   jpa:
     hibernate:
-      ddl-auto: create-drop
+      ddl-auto: none  # 'update' is for development. Use 'validate' for production.
     show-sql: true
-    properties:
-      hibernate:
-        dialect: org.hibernate.dialect.MySQL8Dialect
+    database-platform: org.hibernate.dialect.H2Dialect
 
   data:
     redis:
