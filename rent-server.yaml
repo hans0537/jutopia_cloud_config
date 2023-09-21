@@ -20,6 +20,4 @@ spring:
           - j9c108.p.ssafy.io:7001
           - j9c108.p.ssafy.io:7002
           - j9c108.p.ssafy.io:7003
-          - j9c108.p.ssafy.io:7004
-          - j9c108.p.ssafy.io:7005
-          - j9c108.p.ssafy.io:7006
+
