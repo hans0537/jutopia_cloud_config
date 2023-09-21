@@ -1,9 +1,17 @@
 spring:
   datasource:
-    driver-class-name: org.h2.Driver
-    url: jdbc:h2:mem:testdb
-    username: sa
-    password: 
+    url: jdbc:mysql://j9c108.p.ssafy.io:3306/jutopia?serverTimezone=UTC
+    username: bank
+    password: bank
+    driver-class-name: com.mysql.cj.jdbc.Driver
+  jpa:
+    hibernate:
+      ddl-auto: update  # 'update' is for development. Use 'validate' for production.
+    show-sql: true
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.MySQL8Dialect
+
 
 # jutopia-network의 apigateway ip address로 변경
 gateway:
