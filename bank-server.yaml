@@ -8,6 +8,8 @@ spring:
     hibernate:
       ddl-auto: create-drop  # 'update' is for development. Use 'validate' for production.
     show-sql: true
+    defer-datasource-initialization: true
+    generate-ddl: true
     properties:
       hibernate:
         dialect: org.hibernate.dialect.MySQL8Dialect
