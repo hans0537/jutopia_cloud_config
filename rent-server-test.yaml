@@ -1,18 +1,17 @@
 spring:
   datasource:
-    url: jdbc:h2:mem:testdb;DB_CLOSE_DELAY=-1;DB_CLOSE_ON_EXIT=FALSE
-    username: sa
-    password: password
-    driver-class-name: org.h2.Driver
-  h2:
-    console:
-      enabled: true
-    
+    url: jdbc:mysql://localhost:3306/rentdb?serverTimezone=UTC
+    username: root
+    password: root
+    driver-class-name: com.mysql.cj.jdbc.Driver
+
   jpa:
     hibernate:
-      ddl-auto: create-drop 
+      ddl-auto: create-drop # 'update' is for development. Use 'validate' for production.
     show-sql: true
-    database-platform: org.hibernate.dialect.H2Dialect
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.MySQL8Dialect
 
   data:
     redis:
@@ -21,6 +20,3 @@ spring:
           - j9c108.p.ssafy.io:7001
           - j9c108.p.ssafy.io:7002
           - j9c108.p.ssafy.io:7003
-          - j9c108.p.ssafy.io:7004
-          - j9c108.p.ssafy.io:7005
-          - j9c108.p.ssafy.io:7006
