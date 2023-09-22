@@ -1,0 +1,20 @@
+spring:
+  datasource:
+    url: jdbc:mysql://j9c108.p.ssafy.io:3306/schooldb?serverTimezone=UTC
+    username: school
+    password: '{cipher}AQBWcszy7iicDEfrPZdvCYhm3/mxvIwciJBErt7BKEdWHklLfBbd4CdLAMXKk++uk+CfWI7yiZRQPk5kBj88S9QryBEI2JznElnZRel6npFYo74VHcV7seI79nkvmsQVqWjISIizPWk7cMxTI9IBebA/dRSWqEPBGXPyZfal6rLPRp7gKfqQ1v7HdNHg+jiiBoIG5tefSmjTmGJvRXwj901AkgM/9ICwgvk2LV8srscKcMCEO9IvsQnNbilZCsmyr1UwE1MaO+V36ioWGkBCtJSXpquk3Gyj3Ez/gt8EMUvwTKviVFvvnm2uX63xMrd9P1zi3+GGT2GSZbZwS+eG7N29013qrV330ANaaq1z+cEyM4wiiMMArSNYU8voveeSzMg='
+    driver-class-name: com.mysql.cj.jdbc.Driver
+  jpa:
+    hibernate:
+      ddl-auto: update  # 'update' is for development. Use 'validate' for production.
+    properties:
+      hibernate:
+        format_sql: true
+        show_sql: true
+        highlight_sql: true
+        dialect: org.hibernate.dialect.MySQL8Dialect
+
+
+# jutopia-network의 apigateway ip address로 변경
+gateway:
+  ip: 172.18.0.3
