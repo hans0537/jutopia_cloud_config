@@ -2,7 +2,7 @@ spring:
   datasource:
     url: jdbc:mysql://j9c108.p.ssafy.io:3306/bankdb?serverTimezone=UTC
     username: bank
-    password: '{cipher}AQA85S+grIrT1TR+RfBvCK4cpVu7s2wJ+xqoT59GetcRgi/xuKJWErvCj11WhOE17CTYyp5nfJCzV2XZnh7AQZIM0q/wyxEDHWjsCamqN4VtI14bSdbaYi9aDYJAZLVlOdvk3lPNEy9O7ZBTPahfYtdfE0+0OSv9YySqs6c+QOX+29tQ1yfaJqkMOw6mOFUbAEjdLOdnG4+96dpP9k7yCfR0ykrygjevfoEcZIfqrTh8SRgbeTtzB7uXu6fzoryzez163sxfaK8vInVn8riTkUlx+jWGaebbvCgSFZSxCYGxzGlNPG+TrYQWAkawgg9aiQUaC+SZ4HzgoMl++etSZ3H0iGOV3LdE3/SI4Tb6SODJJJe+IwEoLCDCivFEqnM0/pc='
+    password: '{cipher}AQAnuSWrjs9cc7cCDbXH2iXIp26h0qU0gGlyi5+alVMBDDt+JG6LBCoSgX0k+0rrAd9cvyy8OHxewks4o32jrtNYkCDo4qucQN78fu3HJDa7jn5bl9gTnPIruazuvo2TMqDoBvliS+BZn49stC0Bfdgz0W+4ub4To6Cx5zX6sVhCATamFDt4Ls8F++xt2Iqh3SB5i1wnwG0kRNyIixhyiye2Akq7YzDfRxYQoTdt1OcbAskn3f3fe7UbIvT4fKX9vSMASO/MxF6nV+k8Dg/ctppY/J6HP7gXVo/t6ENUJ6pNcxa1gd12ymsyf3uf015Y8zWkBmPHVQ7Qi3MFMqfgsDv3ihWIYfqK66DcaO7Md80F1PN2qkVCWSbgq8gktAaCilI='
     driver-class-name: com.mysql.cj.jdbc.Driver
   jpa:
     hibernate:
