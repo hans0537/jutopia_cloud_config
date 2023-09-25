@@ -20,3 +20,7 @@ spring:
           - j9c108.p.ssafy.io:7001
           - j9c108.p.ssafy.io:7002
           - j9c108.p.ssafy.io:7003
+
+# jutopia-network의 apigateway ip address로 변경
+gateway:
+  ip: 172.18.0.20

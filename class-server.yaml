@@ -17,4 +17,4 @@ spring:
 
 # jutopia-network의 apigateway ip address로 변경
 gateway:
-  ip: 172.18.0.3
+  ip: 172.18.0.20
