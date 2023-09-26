@@ -1,0 +1,24 @@
+spring:
+  autoconfigure:
+    exclude: org.springframework.boot.autoconfigure.security.servlet.SecurityAutoConfiguration
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://mysql-master:3306/jutopia?useSSL=false&serverTimezone=Asia/Seoul&characterEncoding=UTF-8
+    username: '{cipher}AQB2iQHhEcIXPaFgsmy2XYc6wJpjvbHLSWyM3+b1mnaGe4tkBNI5gvacgUL6ra1j7042yJmvt2mknr5h9v07CISLBPl/I5mSjHqLvlas/JVufxHkL61VlyDWAHUkiGuPD+K9eEjglSd8iKnjLDkNdALnQsdA4HcEyXUqq4JrvpRbKPToKEaUPclFDX8FJE/BvTyYzomUYaURCSmAzjGWChftCfRISyez7dT+bb9ro9ZJo0gxXnrhmafNBFRVBUplCpevvdVCEq/HYXW0xtgUgVoxsyMOCuCTZJV5XhOXseW16WDdkF4ffxLO0R0vv0EqTdUM8Cpc0TsoyAfQLVI+wMA8pf1O6SxGyemyPwvIg6AzyN8NJWG1SIGBSjzLo/R6Mok='
+    password: '{cipher}AQAdBZN9XZVBCqqz8zcW+CHmt+dclrmCy+MHPhLTz9gdIHZDv3vMyjenJr1xjhL5geoD0oHFWwMBiZ7B7Tvtz0oxkU6Szw+ln0K9rwdCD021Occ5gYaJ/JNzuBfnzrKAI5BkYeB0eZv7ibQK1u2uRfst2La//0tgHqbesWdoAUKv+l2QunDMs0BeJn1Z75boiqvLmZ7FHjp3b2M/P8uBTTaK6A23qw3jTZ340DJv7SloAbWZL3ECFWfn1oECCeoz4GFp5BORmI0nSfP1PLpenrz5sA7h8jy1VfVvQRZwfUuwydGgVffPEPDv/8zdtwHVrhn8sPaU8DGrVWanx3UOnZxfKIXEUMkvpAVwj9xR7/E629SnRsBi8iPwih4MLHTbBew='
+
+  jpa:
+    show-sql: true
+    properties:
+      hibernate:
+        format_sql: true
+    hibernate:
+      ddl-auto: create-drop
+  logging:
+    level:
+      org.hibernate.SQL: debug
+      type: trace
+
+  mail:
+    username: '{cipher}AQBvm0DhzcGZ061Tzm75K+uvms57/GqNKuHjyEXAJ2O9rXF/37YVIF5PDBy8PDsJ1b7HNwSuLizQ6WOZ9NqOqn14gIMvHfcUl9v7FKZZqlFQOO5FlLmTz3iRY+HMUCSMKjSxVBLvNJBkFKSElVP4S+7TA9aflDY+vmhTbhLRB6WBAL/sljVEIN0Jxe2uFuEkOgBuIXxwHAqG5+qZ1yCBdCq3DEhgB8ONg1DffC9v84kh6WzQO6blkGLHTp2TkuP6AiiQRT7Eut6wd8Bb8TWaW2zsAB+1zhm8rOjUfY+qXwtUlqvnlWHEAaLd9vrXTBUMc1KAKcyHqkIOFlNzc4IkqJRfR9jssupt1B+7gdsU26Fhibde1B1mk8s7gnPY1LBII/U='
+    password: '{cipher}AQAg/YfUHJC1UPjcR/ZL5JoCsM3+cccmgx/JmkAyFP7b/kyc4UnRpyImNpptgWB3YZkHb0uc9cp7gL+wTen93SnqdRDboF3ezWmhyE83koYwmc7Ix6iTrVt+FRVVEG6bTME8yBs4jqKSXhdnz+bSHlKXuxTs4bzFwmr1zdTNbFxEoga/uLpSToZClLsTmEZqpIKt9J4wpt4QHG/QqFuZ00/91chMfBe6/JkX1O+CleppqurGj7oDsrJ+xX9doccXI0pTog11RfnQN9xzUJ6Vg+wJvRT3bmmwy5OR9zNmO77uv3SksFByp2oXbb11Rr7crZXvIE1Hx7wLoWr/FjQOt/UI0c0LTSE8yFLr9NXjNOSZSv/h2MaRhn+aeX83LuRIJmU='
