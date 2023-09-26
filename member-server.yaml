@@ -3,7 +3,8 @@ spring:
     exclude: org.springframework.boot.autoconfigure.security.servlet.SecurityAutoConfiguration
   datasource:
     driver-class-name: com.mysql.cj.jdbc.Driver
-    url: jdbc:mysql://mysql-master:3306/jutopia?useSSL=false&serverTimezone=Asia/Seoul&characterEncoding=UTF-8
+    url: jdbc:mysql://j9c108.p.ssafy.io:3306/jutopia?useSSL=false&serverTimezone=Asia/Seoul&characterEncoding=UTF-8
+    # url: jdbc:mysql://mysql-master:3306/jutopia?useSSL=false&serverTimezone=Asia/Seoul&characterEncoding=UTF-8
     username: '{cipher}AQB2iQHhEcIXPaFgsmy2XYc6wJpjvbHLSWyM3+b1mnaGe4tkBNI5gvacgUL6ra1j7042yJmvt2mknr5h9v07CISLBPl/I5mSjHqLvlas/JVufxHkL61VlyDWAHUkiGuPD+K9eEjglSd8iKnjLDkNdALnQsdA4HcEyXUqq4JrvpRbKPToKEaUPclFDX8FJE/BvTyYzomUYaURCSmAzjGWChftCfRISyez7dT+bb9ro9ZJo0gxXnrhmafNBFRVBUplCpevvdVCEq/HYXW0xtgUgVoxsyMOCuCTZJV5XhOXseW16WDdkF4ffxLO0R0vv0EqTdUM8Cpc0TsoyAfQLVI+wMA8pf1O6SxGyemyPwvIg6AzyN8NJWG1SIGBSjzLo/R6Mok='
     password: '{cipher}AQAdBZN9XZVBCqqz8zcW+CHmt+dclrmCy+MHPhLTz9gdIHZDv3vMyjenJr1xjhL5geoD0oHFWwMBiZ7B7Tvtz0oxkU6Szw+ln0K9rwdCD021Occ5gYaJ/JNzuBfnzrKAI5BkYeB0eZv7ibQK1u2uRfst2La//0tgHqbesWdoAUKv+l2QunDMs0BeJn1Z75boiqvLmZ7FHjp3b2M/P8uBTTaK6A23qw3jTZ340DJv7SloAbWZL3ECFWfn1oECCeoz4GFp5BORmI0nSfP1PLpenrz5sA7h8jy1VfVvQRZwfUuwydGgVffPEPDv/8zdtwHVrhn8sPaU8DGrVWanx3UOnZxfKIXEUMkvpAVwj9xR7/E629SnRsBi8iPwih4MLHTbBew='
 
