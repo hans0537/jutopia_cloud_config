@@ -7,7 +7,7 @@ spring:
 
   jpa:
     hibernate:
-      ddl-auto: none # 'update' is for development. Use 'validate' for production.
+      ddl-auto: update # 'update' is for development. Use 'validate' for production.
     show-sql: true
     properties:
       hibernate:
