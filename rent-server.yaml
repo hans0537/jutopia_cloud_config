@@ -20,9 +20,9 @@ spring:
 
   kafka:
     bootstrapServers:
-      - j9c108.p.ssafy.io:19092
-      - j9c108.p.ssafy.io:29092
-      - j9c108.p.ssafy.io:39092
+      - j9c108.p.ssafy.io:9092
+      - j9c108.p.ssafy.io:9093
+      - j9c108.p.ssafy.io:9094
 
 
 # jutopia-network의 apigateway ip address로 변경
