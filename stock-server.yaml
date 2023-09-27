@@ -1,0 +1,10 @@
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://mysql-master:3306/stockdb?useSSL=false&characterEncoding=UTF-8&serverTimezone=UTC&allowPublicKeyRetrieval=true
+    username: stock
+    password: '{cipher}AQBl2R7NFFbun9XiI6HTApikX8ZSqbNLuJXzp02EpOj5RuCIUS+/F3UwG5K+NShxKqAg2haHaTEw0U8ML28nXa+sCmAjT+4oj9veak0czs1/v9K3GGg7r5DqS8hflRVgaVsq+lywm3jha1AfB5zmtvUDBeVEbQvOdZ2JOWQNNA8D769Ge/wlR1Lfv3wn6vlp8yQASSvA8yQuEn/V08eOA/xp+PMdiGBKZ9OlRTn2cF6R5Cw6fqGq5iDTM6iFUdLnSqk3eZcxcR9uvf+9quFiCG3XsBPszbh/xSr0FXxE8ZyDNoKD8lKMZRZD1Uc29rDcFPiYT6lwTboBnhoX8Aqciy1YO9so8XnyftbKuoARf0q2epYX5XYr5InGlYuRx+hnJTg='
+
+# jutopia-network의 apigateway ip address로 변경
+gateway:
+  ip: 172.18.0.8
