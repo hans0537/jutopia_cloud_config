@@ -12,17 +12,12 @@ spring:
     properties:
       hibernate:
         dialect: org.hibernate.dialect.MySQL8Dialect
+        
 
   data:
     redis:
-      cluster:
-        nodes:
-          - j9c108.p.ssafy.io:7000
-          - j9c108.p.ssafy.io:7001
-          - j9c108.p.ssafy.io:7002
-          - j9c108.p.ssafy.io:7003
-          - j9c108.p.ssafy.io:7004
-          - j9c108.p.ssafy.io:7005
+      url: http://j9c108.p.ssafy.io:46379
+
 
 # jutopia-network의 apigateway ip address로 변경
 gateway:
