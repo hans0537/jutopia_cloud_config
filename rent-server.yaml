@@ -30,6 +30,10 @@ springdoc:
    path: /rent-server/v3/api-docs
  swagger-ui:
    path: /rent-server/swagger-ui.html
+openapi:
+  service:
+    # API Gateway 포트
+    url: http://localhost:8000
 # jutopia-network의 apigateway ip address로 변경
 gateway:
   ip: 172.18.0.8
