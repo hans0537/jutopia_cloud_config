@@ -15,4 +15,4 @@ spring:
         dialect: org.hibernate.dialect.MySQL8Dialect
 # jutopia-network의 apigateway ip address로 변경
 gateway:
-  ip: 172.18.0.8
+  ip: 172.18.0.10
