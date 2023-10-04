@@ -21,7 +21,7 @@ spring:
       type: trace
 
   mail:
-    username: 'hans0537@naver.com'
+    username: 'hans0537'
     password: 'hans1224'
 
 gateway:
